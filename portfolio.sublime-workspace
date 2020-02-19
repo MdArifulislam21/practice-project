@@ -519,6 +519,35 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "from django.contrib import admin\nfrom .models import Job",
+			"file": "myblog/admin.py",
+			"file_size": 63,
+			"file_write_time": 132265162102974286,
+			"settings":
+			{
+				"buffer_size": 56,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "portfolio/urls.py",
+			"settings":
+			{
+				"buffer_size": 894,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "myjobs/models.py",
+			"settings":
+			{
+				"buffer_size": 154,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -566,13 +595,13 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/home/arif/Desktop/portfolio_project",
-		"/home/arif/Desktop/portfolio_project/portfolio"
-	],
 	"file_history":
 	[
+		"/home/arif/Desktop/portfolio_project/myblog/models.py",
+		"/home/arif/Desktop/portfolio_project/myjobs/admin.py",
+		"/home/arif/Desktop/portfolio_project/portfolio/settings.py",
+		"/home/arif/Desktop/portfolio_project/myblog/apps.py",
+		"/home/arif/Desktop/portfolio_project/myjobs/apps.py",
 		"/home/arif/Desktop/portfolio_project/.gitignore",
 		"/home/arif/Desktop/.gitignore",
 		"/home/arif/Desktop/wordcount/src/Wordcount/settings.py",
@@ -695,12 +724,7 @@
 		"/home/arif/jasmin/django-polls/MANIFEST.in",
 		"/home/arif/jasmin/django-polls/setup.py",
 		"/home/arif/jasmin/django-polls/README.rst",
-		"/home/arif/jasmin/django/mysite/polls/templates/polls/index.html",
-		"/home/arif/jasmin/django/mysite/polls/static/polls/images/love.jpg",
-		"/home/arif/jasmin/django/mysite/polls/tests.py",
-		"/home/arif/jasmin/django/mysite/polls/models.py",
-		"/home/arif/jasmin/django/mysite/polls/templates/polls/detail.html",
-		"/home/arif/jasmin/django/mysite/polls/templates/polls/results.html"
+		"/home/arif/jasmin/django/mysite/polls/templates/polls/index.html"
 	],
 	"find":
 	{
@@ -735,8 +759,93 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "myblog/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 56,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "portfolio/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								750,
+								750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "myjobs/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
