@@ -10,7 +10,7 @@ def blogview(request):
 
 def detail(request, blog_id):
 	blog_obj = get_object_or_404(Blog, pk=blog_id)
-	return render(request, 'blogs/detail.html', {'blog_obj':blog_obj})
+	return render(request, 'blogs/detail.html', {'blog_obj':blog_obj} )
 
 
 
